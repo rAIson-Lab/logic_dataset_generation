@@ -169,3 +169,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Notebook files
+# practice.ipynb
+
+# Temp files for E
+*.tptp
+
+# Serialized files
+*.pickle
