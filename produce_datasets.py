@@ -111,7 +111,7 @@ if __name__=="__main__":
     with gzip.open('theorum.pickle.gzip','wb') as f:
         pickle.dump(found,f)
 
-    with gzip.open('non_theorum.pickle','wb') as f:
+    with gzip.open('non_theorum.pickle.gzip','wb') as f:
         pickle.dump(unfound,f)
 
     print("Program Complete")

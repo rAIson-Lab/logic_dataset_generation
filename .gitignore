@@ -178,3 +178,4 @@ practice.ipynb
 
 # Serialized files
 *.pickle
+*.gzip
